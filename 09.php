@@ -19,11 +19,20 @@ $stmt->execute();
 $stmt->bind_result($titulo);//se le asigna el nombre que queramos a la variable
 
 //se asigna el resultado
-$stmt->fetch();
+//$stmt->fetch();
 
 
 //se imprime el resultado
-var_dump($titulo);
+//var_dump($titulo);
+
+//para imprimir todos los resultados se mete a un while
+
+while($stmt->fetch()):
+    var_dump($titulo);
+
+endwhile;
+
+
 
 // $resultado = $db->query($query);
 
