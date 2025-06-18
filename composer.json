@@ -1,0 +1,16 @@
+{
+    "name": "marti/programacion-orientada-objetos-php",
+    "description": "Aprendiendo Namespaces y autoload",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"           
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Carreno",
+            "email": "martincarreno71@gmail.com"
+        }
+    ],
+    "require": {}
+}
