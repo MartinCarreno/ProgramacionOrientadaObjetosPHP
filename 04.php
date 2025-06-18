@@ -23,7 +23,7 @@ class Bicicleta extends Transporte{ //para poder hacer herencia se utiliza exten
 }
 
 class Automovil extends Transporte {
-    public function __construct(protected int $ruedas, protected int $capacidad, protected string $transmision){
+    public function __construct(protected int $ruedas, protected int $capacidad, protected string $transmision){ //para cambiar el constructor se copia el mismo de la clase padre y se agrega el cambio
 
     }
 
