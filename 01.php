@@ -29,7 +29,7 @@ class Producto {
 
 $producto = new Producto('Tablet',200,true);
 
-$producto->mostrarProducto(); // la sintaxis de flecha tambien es para llamar funciones (metodos )
+$producto->mostrarProducto(); // la sintaxis de flecha tambien es para llamar funciones (metodos)
 
 /* 
 $producto -> nombre = ; //asi se asigna el atributo
